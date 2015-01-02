@@ -1,0 +1,35 @@
+<div class="container">
+	<div class="row login_box">
+
+	    <div class="col-md-12 col-xs-12" align="center">
+
+            <div class="line">
+            	<h3>FASHION TALK</h3>
+            </div>
+            <div class="outter">
+            	<img src="/images/equipment.svg" class="image-circle"/>
+            </div>   
+            <h1>Hi Guest</h1>
+
+	    </div>
+
+        <div class="col-md-12 col-xs-12 login_control">
+                
+                <div class="control">
+                    <div class="label">Email Address</div>
+                    <input type="text" class="form-control" placeholder="admin@gmail.com"/>
+                </div>
+                
+                <div class="control">
+                     <div class="label">Password</div>
+                    <input type="password" class="form-control" placeholder="******"/>
+                </div>
+                <div align="center">
+                     <button {{action 'hackIn'}} class="btn btn-success">LOGIN</button>
+                     <button {{action 'hackInWithFB'}} class="btn btn-primary">FB LOGIN</button>
+                </div>
+                
+        </div>
+
+    </div>
+</div>

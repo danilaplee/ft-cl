@@ -6,6 +6,12 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+	this.resource('login', { path: '/'})
+	this.resource('home', { path: '/home'})
+	this.resource('brands', { path: '/brands'})
+	this.resource('inventory', { path: '/inventory'})
+	this.resource('map', { path: '/map'})
+	this.resource('feed', { path: '/feed'})
 });
 
 export default Router;
