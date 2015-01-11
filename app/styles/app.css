@@ -1,6 +1,9 @@
 
 @import url('nav.css');
 @import url('login.css');
+@import url('timeline.css');
+@import url('user.css');
+@import url('social-buttons.css');
 
 * 
 {
@@ -19,6 +22,7 @@ body
 {
 	padding-top: 50px;
 	position: relative;
+  background-color: #ebebeb;
 }
 
 pre 
@@ -42,3 +46,4 @@ h1
      font-weight: 200;
      font-size: 24px;
 }
+

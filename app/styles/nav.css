@@ -1,5 +1,49 @@
+.navbar-header {
+  background: #f5f5f5;
+}
 .navbar-nav > li > a {
 	font-size: 16px;
+}
+.navbar-nav .glyphicon {
+  color: #424242;
+}
+.navbar-header h1 {
+  font-family: Quicksand;
+  font-weight: bold;
+  float: right;
+  line-height: 10px;
+  padding: 2.5px 12px;
+  color: #757575;
+  font-size: 24px;
+  text-shadow: 0 1px 5px rgba(255,255,255,0.7);
+  /*text-transform: uppercase;*/
+}
+.newMessage {
+  padding: 0px;
+  padding-top:2px;
+}
+.newMessage img {
+  width: 28px;
+  height: 28px;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #424242;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #424242;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #888;
+}
+.navbar-inverse {
+  background: #f5f5f5;
+}
+.navbar-nav > li {
+  min-width: 180px;
+}
+.navbar-inverse .navbar-collapse {
+  margin-top: 1px;
+  border-top: 1px solid #ebebeb;
 }
 @media screen and (max-width: 768px) {
   .side-collapse-container
@@ -18,7 +62,7 @@
       top:63px;
       bottom:0;
       left:0;
-      width:240px;
+      width:180px;
       position:fixed;
       overflow:hidden;
       transition:width .4s;
