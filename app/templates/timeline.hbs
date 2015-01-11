@@ -1,0 +1,22 @@
+<div class="timeline">
+  {{#each photo in model}}
+    <section class="timeline-item">
+        <figure class="photoAuthor">
+          <img class="authorIcon" src="/images/userpic.png">
+          {{link-to 'authorName' 'profile' photo.authorID}}
+        </figure>
+        <img class="mainFeedImage" {{bind-attr src=photo.photoSrc}}>
+        <figcaption>
+          <p>{{photo.photoText}}</p>
+          {{#if photo.isLiked}}
+          <div {{action 'likeMe' on 'click'}} class="glyphicon glyphicon-heart isLiked">
+          <span>{{photo.photoRating}}</span>
+          {{else}}
+          <div {{action 'likeMe' on 'click'}} class="glyphicon glyphicon-heart">
+          <span>{{photo.photoRating}}</span>
+          {{/if}}
+          </div>
+        </figcaption>
+    </section>
+  {{/each}}
+</div>

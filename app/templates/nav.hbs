@@ -1,0 +1,54 @@
+<header role="banner" class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button {{action 'displayMenu' on 'click'}} data-toggle="collapse-side" data-target=".side-collapse" data-target-2=".side-collapse-container" type="button" class="navbar-toggle pull-left">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <button {{action 'goToLikes' on 'click'}} type="button" class="newMessage navbar-toggle pull-left">
+            <img src="/images/newHeart.svg">
+          </button>
+          <button {{action 'goToMessages' on 'click'}} type="button" class="newMessage navbar-toggle pull-left">
+            <img src="/images/newMessage.svg">
+          </button>
+          <h1>myApparel</h1>
+        </div>
+        <div class="navbar-inverse side-collapse in">
+          <nav role="navigation" class="navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li>
+                {{#link-to 'inventory'}}
+                  <span class="glyphicon glyphicon-user"></span>
+                  YOUR PROFILE
+                {{/link-to}}
+              </li>
+              <li>
+                {{#link-to 'brands'}}
+                  <span class="glyphicon glyphicon-tag"></span>
+                  BRANDS
+                {{/link-to}}
+              </li>
+              <li>
+                {{#link-to 'home'}}
+                  <span class="glyphicon glyphicon-home"></span>
+                  HOME
+                {{/link-to}}
+              </li>
+              <li>
+                {{#link-to 'map'}}
+                  <span class="glyphicon glyphicon-globe"></span>
+                  MAP
+                {{/link-to}}
+              </li>
+              <li>
+                {{#link-to 'login'}}
+                  <span class="glyphicon glyphicon-eject"></span>
+                  LOGOUT
+                {{/link-to}}
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+</header>

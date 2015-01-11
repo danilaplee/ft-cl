@@ -1,0 +1,72 @@
+.mainCon
+{
+  margin-top:15px;
+  width:100%;
+  height: auto;
+  overflow: hidden;
+  background: #eeeeee;
+  padding: 9px;
+}
+
+.mainCon .container 
+{
+	width: 100%;
+	height: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #fff;
+	color: #000;
+  	box-shadow: 1px 0px 3px rgba(0,0,0, 0.5);
+}
+.mainCon h5,
+.mainCon h2 {
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 1px solid #e0e0e0;
+	padding: 5px;
+}
+.mainCon h2 {
+	border-top: 1px solid #e0e0e0;
+}
+
+.mainCon h2 > p {
+	margin: 10px;
+	font-size: 16px;
+}
+.mainCon > h5 {
+	padding-top: 0
+}
+.mainCon .container * 
+{
+	color: #424242;
+}
+.mainCon .container .btn,
+.mainCon .container .btn span {
+	color: #fff;
+	cursor: pointer;
+}
+.mainCon .container span.btn {
+	color: #fff;
+	background: #424242;
+	text-transform: none;
+	padding: 4px 10px;
+	margin: 5px;
+}
+.mainCon .container .label:hover {
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.mainCon .container .well.profile 
+{
+	padding: 0;
+	border: 0;
+	min-height: 0;
+	margin: 0;
+}
+.profileImage 
+{
+	text-align: center;
+}
+.profileImage img 
+{
+	margin: 30px auto;
+}

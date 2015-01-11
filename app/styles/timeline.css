@@ -1,0 +1,97 @@
+/*TIMELINE*/
+div.glyphicon.glyphicon-heart 
+{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 40px;
+  color: #e0e0e0;
+}
+.glyphicon-heart span 
+{
+  position: absolute;
+  color: #FF8A80;
+  top: 4px;
+  left: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+div.glyphicon.glyphicon-heart.isLiked 
+{
+  color: #FF8A80;
+}
+.glyphicon-heart.isLiked span 
+{
+  color:#fff;
+}
+.timeline 
+{
+  margin-top:15px;
+  width:100%;
+  height: auto;
+  overflow: hidden;
+  padding: 9px;
+}
+.timeline a {
+  color:#424242;
+}
+.timeline-item 
+{
+  width: 100%;
+  background: #fff;
+  min-height: 420px;
+  height: auto;
+  position: relative;
+  float:left;
+  box-shadow: 1px 0px 3px rgba(0,0,0, 0.5);
+}
+.timeline-item:last-child > figcaption {
+  border: 0;
+  box-shadow: 0;
+}
+.timeline-item figcaption,
+.timeline-item .photoAuthor 
+{
+  position: absolute;
+  bottom: 0px;
+  height: 60px;
+  background-color: #fff;
+  padding: 10px;
+  left:0px;
+  width: 100%;
+}
+.timeline-item figcaption {
+  height: 60px;
+}
+.timeline-item .photoAuthor {
+  top: 0
+}
+.timeline-item figcaption p 
+{
+  color: #424242;
+  font-size: 14px;
+  padding: 6px;
+}
+.timeline-item img.mainFeedImage 
+{
+  margin-top: 50px;
+  width: 100%;
+  min-height: 300px;
+  height: auto;
+}
+
+.timeline-item img.authorIcon 
+{
+  height:40px;
+  width: 40px;
+  margin-left: 5px;
+  margin-top: 1px;
+  border: 1px solid #424242;
+  border-radius:50%;
+
+}
+.photoAuthor a 
+{
+  font-size: 14px;
+  padding: 7px 10px;
+}
